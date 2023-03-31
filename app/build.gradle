@@ -23,7 +23,7 @@ android {
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //signingConfig signingConfigs.appmark_config
-            proguardFile 'C:/AppProjects/AppMark/app/proguard-rules.pro'
+            //proguardFile 'C:/AppProjects/AppMark/app/proguard-rules.pro'
         }
         debug {
             //signingConfig signingConfigs.appmark_config
