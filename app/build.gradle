@@ -4,14 +4,6 @@ android {
     // KEYSTORE PASSWORD: password
     // KEY ALIAS: key
     // KEY PASSWORD: password
-    signingConfigs {
-        appmark_config {
-            keyAlias 'key'
-            keyPassword 'password'
-            storeFile file('C:/AppProjects/keystore_appmark.jks')
-            storePassword 'password'
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.vipapp.appmark2"
@@ -27,11 +19,11 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.appmark_config
+            //signingConfig signingConfigs.appmark_config
             proguardFile 'C:/AppProjects/AppMark/app/proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.appmark_config
+            //signingConfig signingConfigs.appmark_config
         }
     }
     compileOptions {
