@@ -7,7 +7,7 @@ android {
     // KEYSTORE PASSWORD: password
     // KEY ALIAS: key
     // KEY PASSWORD: password
-    compileSdkVersion 30
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.vipapp.appmark2"
         minSdkVersion 21
